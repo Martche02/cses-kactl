@@ -1,0 +1,338 @@
+\documentclass[10pt, a4paper, twocolumn, landscape]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Maratona de Programação — KACTL Notebook}
+\lhead{CSES \& Maratona SBC}
+\cfoot{\thepage}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\tiny,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=3pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    extendedchars=true,
+    literate=
+        {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+        {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+        {à}{{\`a}}1 {ã}{{\~a}}1 {õ}{{\~o}}1 {Ã}{{\~A}}1 {Õ}{{\~O}}1
+        {ç}{{\c c}}1 {Ç}{{\c C}}1 {â}{{\^a}}1 {ê}{{\^e}}1 {ô}{{\^o}}1
+        {–}{{-}}1 {—}{{-}}1
+}
+
+\lstset{style=mystyle}
+
+\titleformat{\section}{\large\bfseries\color{blue}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\color{darkgray}}{}{0em}{}
+
+\title{\Huge \textbf{KACTL Team Notebook} \\ \large CSES Problem Set \& Maratona SBC Solutions}
+\author{Team Maratona}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+\section{Mathematics \& Number Theory}
+\subsection{Binomial Coefficients}
+\textbf{CSES ID:} 1079 \\
+\lstinputlisting[language=C++]{content/mathematics/1079.cpp}
+\vspace{0.2cm}
+\subsection{Common Divisors}
+\textbf{CSES ID:} 1081 \\
+\lstinputlisting[language=C++]{content/mathematics/1081.cpp}
+\vspace{0.2cm}
+\subsection{Sum of Divisors}
+\textbf{CSES ID:} 1082 \\
+\lstinputlisting[language=C++]{content/mathematics/1082.cpp}
+\vspace{0.2cm}
+\subsection{Writing Numbers}
+\textbf{CSES ID:} 1086 \\
+\lstinputlisting[language=C++]{content/mathematics/1086.cpp}
+\vspace{0.2cm}
+\subsection{Exponentiation}
+\textbf{CSES ID:} 1095 \\
+\lstinputlisting[language=C++]{content/mathematics/1095.cpp}
+\vspace{0.2cm}
+\subsection{Counting Bits}
+\textbf{CSES ID:} 1146 \\
+\lstinputlisting[language=C++]{content/mathematics/1146.cpp}
+\vspace{0.2cm}
+\subsection{Exponentiation II}
+\textbf{CSES ID:} 1712 \\
+\lstinputlisting[language=C++]{content/mathematics/1712.cpp}
+\vspace{0.2cm}
+\subsection{Counting Divisors}
+\textbf{CSES ID:} 1713 \\
+\lstinputlisting[language=C++]{content/mathematics/1713.cpp}
+\vspace{0.2cm}
+\subsection{Josephus Queries}
+\textbf{CSES ID:} 2164 \\
+\lstinputlisting[language=C++]{content/mathematics/2164.cpp}
+\vspace{0.2cm}
+\subsection{Divisor Analysis}
+\textbf{CSES ID:} 2182 \\
+\lstinputlisting[language=C++]{content/mathematics/2182.cpp}
+\vspace{0.2cm}
+\subsection{Prime Multiples}
+\textbf{CSES ID:} 2185 \\
+\lstinputlisting[language=C++]{content/mathematics/2185.cpp}
+\vspace{0.2cm}
+\subsection{Counting Necklaces}
+\textbf{CSES ID:} 2209 \\
+\lstinputlisting[language=C++]{content/mathematics/2209.cpp}
+\vspace{0.2cm}
+\subsection{Counting Grids}
+\textbf{CSES ID:} 2210 \\
+\lstinputlisting[language=C++]{content/mathematics/2210.cpp}
+\vspace{0.2cm}
+\subsection{Counting Coprime Pairs}
+\textbf{CSES ID:} 2417 \\
+\lstinputlisting[language=C++]{content/mathematics/2417.cpp}
+\vspace{0.2cm}
+\subsection{Xor Pyramid Peak}
+\textbf{CSES ID:} 2419 \\
+\lstinputlisting[language=C++]{content/mathematics/2419.cpp}
+\vspace{0.2cm}
+\subsection{System of Linear Equations}
+\textbf{CSES ID:} 3154 \\
+\lstinputlisting[language=C++]{content/mathematics/3154.cpp}
+\vspace{0.2cm}
+\subsection{System of Linear Equations}
+\textbf{CSES ID:} 3154 \\
+\lstinputlisting[language=C++]{content/mathematics/3154_feito_pelo_gemini.cpp}
+\vspace{0.2cm}
+\subsection{Sum of Four Squares}
+\textbf{CSES ID:} 3355 \\
+\lstinputlisting[language=C++]{content/mathematics/3355.cpp}
+\vspace{0.2cm}
+\subsection{Next Prime}
+\textbf{CSES ID:} 3396 \\
+\lstinputlisting[language=C++]{content/mathematics/3396.cpp}
+\vspace{0.2cm}
+\subsection{Permutation Order}
+\textbf{CSES ID:} 3397 \\
+\lstinputlisting[language=C++]{content/mathematics/3397.cpp}
+\vspace{0.2cm}
+\subsection{Permutation Rounds}
+\textbf{CSES ID:} 3398 \\
+\lstinputlisting[language=C++]{content/mathematics/3398.cpp}
+\vspace{0.2cm}
+\subsection{Triangle Number Sums}
+\textbf{CSES ID:} 3406 \\
+\lstinputlisting[language=C++]{content/mathematics/3406.cpp}
+\vspace{0.2cm}
+\section{Combinatorics \& Probability}
+\subsection{Creating Strings II}
+\textbf{CSES ID:} 1715 \\
+\lstinputlisting[language=C++]{content/combinatorics/1715.cpp}
+\vspace{0.2cm}
+\subsection{Distributing Apples}
+\textbf{CSES ID:} 1716 \\
+\lstinputlisting[language=C++]{content/combinatorics/1716.cpp}
+\vspace{0.2cm}
+\subsection{Christmas Party}
+\textbf{CSES ID:} 1717 \\
+\lstinputlisting[language=C++]{content/combinatorics/1717.cpp}
+\vspace{0.2cm}
+\subsection{Dice Probability}
+\textbf{CSES ID:} 1725 \\
+\lstinputlisting[language=C++]{content/combinatorics/1725.cpp}
+\vspace{0.2cm}
+\subsection{Moving Robots}
+\textbf{CSES ID:} 1726 \\
+\lstinputlisting[language=C++]{content/combinatorics/1726.cpp}
+\vspace{0.2cm}
+\subsection{Candy Lottery}
+\textbf{CSES ID:} 1727 \\
+\lstinputlisting[language=C++]{content/combinatorics/1727.cpp}
+\vspace{0.2cm}
+\subsection{Candy Lottery}
+\textbf{CSES ID:} 1727 \\
+\lstinputlisting[language=C++]{content/combinatorics/1727_2.cpp}
+\vspace{0.2cm}
+\subsection{Inversion Probability}
+\textbf{CSES ID:} 1728 \\
+\lstinputlisting[language=C++]{content/combinatorics/1728.cpp}
+\vspace{0.2cm}
+\subsection{Bracket Sequences I}
+\textbf{CSES ID:} 2064 \\
+\lstinputlisting[language=C++]{content/combinatorics/2064.cpp}
+\vspace{0.2cm}
+\subsection{Bracket Sequences II}
+\textbf{CSES ID:} 2187 \\
+\lstinputlisting[language=C++]{content/combinatorics/2187.cpp}
+\vspace{0.2cm}
+\section{String Algorithms}
+\subsection{Minimal Rotation}
+\textbf{CSES ID:} 1110 \\
+\lstinputlisting[language=C++]{content/strings/1110.cpp}
+\vspace{0.2cm}
+\subsection{Longest Palindrome}
+\textbf{CSES ID:} 1111 \\
+\lstinputlisting[language=C++]{content/strings/1111.cpp}
+\vspace{0.2cm}
+\subsection{Longest Palindrome}
+\textbf{CSES ID:} 1111 \\
+\lstinputlisting[language=C++]{content/strings/1111_2.cpp}
+\vspace{0.2cm}
+\subsection{Required Substring}
+\textbf{CSES ID:} 1112 \\
+\lstinputlisting[language=C++]{content/strings/1112.cpp}
+\vspace{0.2cm}
+\subsection{Word Combinations}
+\textbf{CSES ID:} 1731 \\
+\lstinputlisting[language=C++]{content/strings/1731.cpp}
+\vspace{0.2cm}
+\subsection{Finding Borders}
+\textbf{CSES ID:} 1732 \\
+\lstinputlisting[language=C++]{content/strings/1732.cpp}
+\vspace{0.2cm}
+\subsection{Finding Periods}
+\textbf{CSES ID:} 1733 \\
+\lstinputlisting[language=C++]{content/strings/1733.cpp}
+\vspace{0.2cm}
+\subsection{String Matching}
+\textbf{CSES ID:} 1753 \\
+\lstinputlisting[language=C++]{content/strings/1753.cpp}
+\vspace{0.2cm}
+\subsection{Palindrome Queries}
+\textbf{CSES ID:} 2420 \\
+\lstinputlisting[language=C++]{content/strings/2420.cpp}
+\vspace{0.2cm}
+\subsection{All Palindromes}
+\textbf{CSES ID:} 3138 \\
+\lstinputlisting[language=C++]{content/strings/3138.cpp}
+\vspace{0.2cm}
+\subsection{And Subset Count}
+\textbf{CSES ID:} 3141 \\
+\lstinputlisting[language=C++]{content/strings/3141.cpp}
+\vspace{0.2cm}
+\section{Data Structures \& Bitwise Operations}
+\subsection{SOS Bit Problem}
+\textbf{CSES ID:} 1654 \\
+\lstinputlisting[language=C++]{content/data_structures/1654.cpp}
+\vspace{0.2cm}
+\subsection{Maximum Xor Subarray}
+\textbf{CSES ID:} 1655 \\
+\lstinputlisting[language=C++]{content/data_structures/1655.cpp}
+\vspace{0.2cm}
+\subsection{Maximum Xor Subset}
+\textbf{CSES ID:} 3191 \\
+\lstinputlisting[language=C++]{content/data_structures/3191.cpp}
+\vspace{0.2cm}
+\subsection{K Subset Xors}
+\textbf{CSES ID:} 3192 \\
+\lstinputlisting[language=C++]{content/data_structures/3192.cpp}
+\vspace{0.2cm}
+\subsection{Xor Pyramid Diagonal}
+\textbf{CSES ID:} 3194 \\
+\lstinputlisting[language=C++]{content/data_structures/3194.cpp}
+\vspace{0.2cm}
+\subsection{Xor Pyramid Row}
+\textbf{CSES ID:} 3195 \\
+\lstinputlisting[language=C++]{content/data_structures/3195.cpp}
+\vspace{0.2cm}
+\subsection{Number of Subset Xors}
+\textbf{CSES ID:} 3211 \\
+\lstinputlisting[language=C++]{content/data_structures/3211.cpp}
+\vspace{0.2cm}
+\subsection{All Subarray Xors}
+\textbf{CSES ID:} 3233 \\
+\lstinputlisting[language=C++]{content/data_structures/3233.cpp}
+\vspace{0.2cm}
+\subsection{TrafficLights.}
+\lstinputlisting[language=C++]{content/data_structures/TrafficLights..cpp}
+\vspace{0.2cm}
+\section{Graph Algorithms \& Matrix Exponentiation}
+\subsection{Throwing Dice}
+\textbf{CSES ID:} 1096 \\
+\lstinputlisting[language=C++]{content/graph/1096.cpp}
+\vspace{0.2cm}
+\subsection{Fibonacci Numbers}
+\textbf{CSES ID:} 1722 \\
+\lstinputlisting[language=C++]{content/graph/1722.cpp}
+\vspace{0.2cm}
+\subsection{Graph Paths I}
+\textbf{CSES ID:} 1723 \\
+\lstinputlisting[language=C++]{content/graph/1723.cpp}
+\vspace{0.2cm}
+\subsection{Graph Paths II}
+\textbf{CSES ID:} 1724 \\
+\lstinputlisting[language=C++]{content/graph/1724.cpp}
+\vspace{0.2cm}
+\section{Game Theory \& Nim Games}
+\subsection{Stair Game}
+\textbf{CSES ID:} 1099 \\
+\lstinputlisting[language=C++]{content/game_theory/1099.cpp}
+\vspace{0.2cm}
+\subsection{Stick Game}
+\textbf{CSES ID:} 1729 \\
+\lstinputlisting[language=C++]{content/game_theory/1729.cpp}
+\vspace{0.2cm}
+\subsection{Nim Game I}
+\textbf{CSES ID:} 1730 \\
+\lstinputlisting[language=C++]{content/game_theory/1730.cpp}
+\vspace{0.2cm}
+\subsection{Coin Piles}
+\textbf{CSES ID:} 1754 \\
+\lstinputlisting[language=C++]{content/game_theory/1754.cpp}
+\vspace{0.2cm}
+\subsection{Grundy's Game}
+\textbf{CSES ID:} 2207 \\
+\lstinputlisting[language=C++]{content/game_theory/2207.cpp}
+\vspace{0.2cm}
+\subsection{Another Game}
+\textbf{CSES ID:} 2208 \\
+\lstinputlisting[language=C++]{content/game_theory/2208.cpp}
+\vspace{0.2cm}
+\section{Maratona SBC \& Contest Solutions}
+\subsection{J}
+\lstinputlisting[language=C++]{content/contests/J.cpp}
+\vspace{0.2cm}
+\subsection{G}
+\lstinputlisting[language=C++]{content/contests/G.cpp}
+\vspace{0.2cm}
+\subsection{A}
+\lstinputlisting[language=C++]{content/contests/A.cpp}
+\vspace{0.2cm}
+\subsection{F}
+\lstinputlisting[language=C++]{content/contests/F.cpp}
+\vspace{0.2cm}
+\subsection{I}
+\lstinputlisting[language=C++]{content/contests/I.cpp}
+\vspace{0.2cm}
+\subsection{K}
+\lstinputlisting[language=C++]{content/contests/K.cpp}
+\vspace{0.2cm}
+\subsection{HowManyTeams}
+\lstinputlisting[language=C++]{content/contests/HowManyTeams.cpp}
+\vspace{0.2cm}
+\end{document}
