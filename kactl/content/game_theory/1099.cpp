@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Game_theory
+ * Category: game_theory
+ * Source: 1099.cpp
  * CSES Task ID: 1099
  * CSES Problem: Stair Game
  * Link: https://cses.fi/problemset/task/1099

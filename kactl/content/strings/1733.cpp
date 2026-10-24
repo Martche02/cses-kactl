@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 1733.cpp
  * CSES Task ID: 1733
  * CSES Problem: Finding Periods
  * Link: https://cses.fi/problemset/task/1733

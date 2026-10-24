@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Contests
+ * Category: contests
+ * Source: HowManyTeams.cpp
  * Problem: HowManyTeams
  * Description:
  *   Implementation for HowManyTeams

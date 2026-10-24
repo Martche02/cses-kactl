@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Game_theory
+ * Category: game_theory
+ * Source: 2207.cpp
  * CSES Task ID: 2207
  * CSES Problem: Grundy's Game
  * Link: https://cses.fi/problemset/task/2207

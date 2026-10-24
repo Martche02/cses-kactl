@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 2187.cpp
  * CSES Task ID: 2187
  * CSES Problem: Bracket Sequences II
  * Link: https://cses.fi/problemset/task/2187
@@ -75,7 +76,7 @@ void calculateFat()
 		ifat[i-1] = (ifat[i]*i)%base;
 }
 
-// Consertada para calcular a Combinação C(a,b) de verdade e tratar casos negativos
+// Consertada para calcular a Combinação C(a,b) de verdade e tratar ca negativos
 ll newton(int a, int b)
 {
     if (b < 0 || b > a) return 0;

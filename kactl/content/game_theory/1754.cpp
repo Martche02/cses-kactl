@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Game_theory
+ * Category: game_theory
+ * Source: 1754.cpp
  * CSES Task ID: 1754
  * CSES Problem: Coin Piles
  * Link: https://cses.fi/problemset/task/1754

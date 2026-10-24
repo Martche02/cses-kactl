@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 1725.cpp
  * CSES Task ID: 1725
  * CSES Problem: Dice Probability
  * Link: https://cses.fi/problemset/task/1725

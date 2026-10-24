@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 1146.cpp
  * CSES Task ID: 1146
  * CSES Problem: Counting Bits
  * Link: https://cses.fi/problemset/task/1146

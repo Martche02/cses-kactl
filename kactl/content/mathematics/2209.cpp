@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 2209.cpp
  * CSES Task ID: 2209
  * CSES Problem: Counting Necklaces
  * Link: https://cses.fi/problemset/task/2209

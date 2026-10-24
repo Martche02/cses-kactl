@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 3138.cpp
  * CSES Task ID: 3138
  * CSES Problem: All Palindromes
  * Link: https://cses.fi/problemset/task/3138

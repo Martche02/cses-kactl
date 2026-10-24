@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 1713.cpp
  * CSES Task ID: 1713
  * CSES Problem: Counting Divisors
  * Link: https://cses.fi/problemset/task/1713

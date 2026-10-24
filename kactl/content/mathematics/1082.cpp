@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 1082.cpp
  * CSES Task ID: 1082
  * CSES Problem: Sum of Divisors
  * Link: https://cses.fi/problemset/task/1082

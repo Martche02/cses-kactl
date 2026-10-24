@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 1727.cpp
  * CSES Task ID: 1727
  * CSES Problem: Candy Lottery
  * Link: https://cses.fi/problemset/task/1727

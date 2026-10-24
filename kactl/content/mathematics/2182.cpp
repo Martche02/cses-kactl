@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 2182.cpp
  * CSES Task ID: 2182
  * CSES Problem: Divisor Analysis
  * Link: https://cses.fi/problemset/task/2182

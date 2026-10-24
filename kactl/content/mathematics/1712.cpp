@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 1712.cpp
  * CSES Task ID: 1712
  * CSES Problem: Exponentiation II
  * Link: https://cses.fi/problemset/task/1712

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 2417.cpp
  * CSES Task ID: 2417
  * CSES Problem: Counting Coprime Pairs
  * Link: https://cses.fi/problemset/task/2417

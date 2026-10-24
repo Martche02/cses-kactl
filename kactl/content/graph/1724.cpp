@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Graph
+ * Category: graph
+ * Source: 1724.cpp
  * CSES Task ID: 1724
  * CSES Problem: Graph Paths II
  * Link: https://cses.fi/problemset/task/1724

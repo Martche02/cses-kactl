@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Graph
+ * Category: graph
+ * Source: 1096.cpp
  * CSES Task ID: 1096
  * CSES Problem: Throwing Dice
  * Link: https://cses.fi/problemset/task/1096

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 2420.cpp
  * CSES Task ID: 2420
  * CSES Problem: Palindrome Queries
  * Link: https://cses.fi/problemset/task/2420

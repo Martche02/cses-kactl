@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 2419.cpp
  * CSES Task ID: 2419
  * CSES Problem: Xor Pyramid Peak
  * Link: https://cses.fi/problemset/task/2419

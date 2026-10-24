@@ -1,15 +1,16 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Contests
- * Problem: J
+ * Category: contests
+ * Source: 2010\J.cpp
+ * Problem: Maratona 2010 - J
  * Description:
- *   Implementation for J
+ *   Implementation for Maratona 2010 - J
  */
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int mex(vector<int>& she, vector<int>& we, int i)
+int mex(vector<int>& she, vector<int>& we, int i)(*@\label{fn34}@*)
 {
     for (; i <= 52; i++)
     {

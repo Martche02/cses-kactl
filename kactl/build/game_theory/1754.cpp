@@ -1,0 +1,54 @@
+/**
+ * Author: Team KACTL / Marce
+ * Category: game_theory
+ * Source: 1754.cpp
+ * CSES Task ID: 1754
+ * CSES Problem: Coin Piles
+ * Link: https://cses.fi/problemset/task/1754
+ * Description:
+ *   addEventListener("DOMContentLoaded", function (e) {
+ *   const mathElements = document.getElementsByClassName("math");
+ *   const macros = {};
+ *   for (let element of mathElements) {
+ *   katex.render(element.textContent, element, {
+ *   displayMode: element.classList.contains("math-display"),
+ *   throwOnError: false,
+ *   globalGroup: true,
+ *   macros,
+ *   });
+ *   }
+ *   });
+ *   .katex .base:last-child {
+ *   display: inline;
+ *   }
+ *   Time limit: 1.00 s
+ *   Memory limit: 512 MB
+ *   You have two coin piles containing a and b coins. On each move, you can either remove one coin from the left pile and two coins from the right pile, or two coins from the left pile and one coin from the right pile.
+ *   Your task is to efficiently find out if you can empty both the piles.
+ *   Input
+ *   The first input line has an integer t: the number of tests.
+ *   After this, there are t lines, each of which has two integers a and b: the numbers of coins in the piles.
+ *   Output
+ *   For each test, print "YES" if you can empty the piles and "NO" otherwise.
+ *   Constraints
+ *   1 \le t \le 10^5
+ *   0 \le a, b \le 10^9
+ *   Example
+ *   Input:
+ *   3
+ *   2 1
+ *   2 2
+ *   3 3
+ *   Output:
+ *   YES
+ *   NO
+ *   YES
+ */
+#include <bits/stdc+.h>
+
+using namespace std;
+
+int main ()
+{
+	return 0;
+}

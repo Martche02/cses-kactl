@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 1095.cpp
  * CSES Task ID: 1095
  * CSES Problem: Exponentiation
  * Link: https://cses.fi/problemset/task/1095

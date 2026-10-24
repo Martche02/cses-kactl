@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 2164.cpp
  * CSES Task ID: 2164
  * CSES Problem: Josephus Queries
  * Link: https://cses.fi/problemset/task/2164

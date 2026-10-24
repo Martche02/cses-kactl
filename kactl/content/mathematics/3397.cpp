@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 3397.cpp
  * CSES Task ID: 3397
  * CSES Problem: Permutation Order
  * Link: https://cses.fi/problemset/task/3397

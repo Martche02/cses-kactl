@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 1753.cpp
  * CSES Task ID: 1753
  * CSES Problem: String Matching
  * Link: https://cses.fi/problemset/task/1753

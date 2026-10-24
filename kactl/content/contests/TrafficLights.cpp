@@ -1,9 +1,10 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
- * Problem: TrafficLights.
+ * Category: contests
+ * Source: TrafficLights..cpp
+ * Problem: TrafficLights
  * Description:
- *   Implementation for TrafficLights.
+ *   Implementation for TrafficLights
  */
 //21:10 21/09/26
 #include <bits/stdc++.h>

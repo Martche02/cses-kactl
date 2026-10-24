@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 1716.cpp
  * CSES Task ID: 1716
  * CSES Problem: Distributing Apples
  * Link: https://cses.fi/problemset/task/1716

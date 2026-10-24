@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 3154.cpp
  * CSES Task ID: 3154
  * CSES Problem: System of Linear Equations
  * Link: https://cses.fi/problemset/task/3154

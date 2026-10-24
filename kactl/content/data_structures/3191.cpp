@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
+ * Category: data_structures
+ * Source: 3191.cpp
  * CSES Task ID: 3191
  * CSES Problem: Maximum Xor Subset
  * Link: https://cses.fi/problemset/task/3191

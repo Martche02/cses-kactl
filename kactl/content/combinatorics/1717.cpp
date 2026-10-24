@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 1717.cpp
  * CSES Task ID: 1717
  * CSES Problem: Christmas Party
  * Link: https://cses.fi/problemset/task/1717

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 1715.cpp
  * CSES Task ID: 1715
  * CSES Problem: Creating Strings II
  * Link: https://cses.fi/problemset/task/1715

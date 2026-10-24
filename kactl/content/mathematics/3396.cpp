@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 3396.cpp
  * CSES Task ID: 3396
  * CSES Problem: Next Prime
  * Link: https://cses.fi/problemset/task/3396

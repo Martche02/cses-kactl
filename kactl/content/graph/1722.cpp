@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Graph
+ * Category: graph
+ * Source: 1722.cpp
  * CSES Task ID: 1722
  * CSES Problem: Fibonacci Numbers
  * Link: https://cses.fi/problemset/task/1722

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
+ * Category: data_structures
+ * Source: 3233.cpp
  * CSES Task ID: 3233
  * CSES Problem: All Subarray Xors
  * Link: https://cses.fi/problemset/task/3233

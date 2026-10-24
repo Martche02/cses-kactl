@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 2064.cpp
  * CSES Task ID: 2064
  * CSES Problem: Bracket Sequences I
  * Link: https://cses.fi/problemset/task/2064

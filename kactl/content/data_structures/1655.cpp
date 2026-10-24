@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
+ * Category: data_structures
+ * Source: 1655.cpp
  * CSES Task ID: 1655
  * CSES Problem: Maximum Xor Subarray
  * Link: https://cses.fi/problemset/task/1655

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 1726.cpp
  * CSES Task ID: 1726
  * CSES Problem: Moving Robots
  * Link: https://cses.fi/problemset/task/1726

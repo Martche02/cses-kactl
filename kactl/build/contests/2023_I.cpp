@@ -1,9 +1,10 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Contests
- * Problem: I
+ * Category: contests
+ * Source: 2023\I.cpp
+ * Problem: Maratona 2023 - I
  * Description:
- *   Implementation for I
+ *   Implementation for Maratona 2023 - I
  */
 #include <bits/stdc++.h>
 
@@ -16,7 +17,7 @@ struct dp
 	array<int, 2> startwith{1, 0};
 	ll acc = 0;
 	
-	void update(bool bit)
+	void update(bool bit)(*@\label{fn37}@*)
 	{
 		parity ^= bit;
 		startwith[parity]++;

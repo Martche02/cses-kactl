@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 2185.cpp
  * CSES Task ID: 2185
  * CSES Problem: Prime Multiples
  * Link: https://cses.fi/problemset/task/2185

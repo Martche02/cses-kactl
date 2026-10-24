@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
+ * Category: data_structures
+ * Source: 3211.cpp
  * CSES Task ID: 3211
  * CSES Problem: Number of Subset Xors
  * Link: https://cses.fi/problemset/task/3211

@@ -1,9 +1,10 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Contests
- * Problem: K
+ * Category: contests
+ * Source: 2023\K.cpp
+ * Problem: Maratona 2023 - K
  * Description:
- *   Implementation for K
+ *   Implementation for Maratona 2023 - K
  */
 #include <bits/stdc++.h>
 

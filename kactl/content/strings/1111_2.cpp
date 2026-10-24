@@ -1,8 +1,9 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 1111_2.cpp
  * CSES Task ID: 1111
- * CSES Problem: Longest Palindrome
+ * CSES Problem: Longest Palindrome (v2)
  * Link: https://cses.fi/problemset/task/1111
  * Description:
  *   addEventListener("DOMContentLoaded", function (e) {

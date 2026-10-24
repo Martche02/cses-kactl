@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
+ * Category: data_structures
+ * Source: 3192.cpp
  * CSES Task ID: 3192
  * CSES Problem: K Subset Xors
  * Link: https://cses.fi/problemset/task/3192
@@ -92,8 +93,8 @@ int main()
 	}
 	
 	int limite_m = (1 << blimpa.size());
-	int impressos = 0;
-	for (int m =0; m < limite_m && impressos < k; ++m)
+	int impres = 0;
+	for (int m =0; m < limite_m && impres < k; ++m)
 	{
 		int xor_atual = 0;
 		for (int i = 0; i< blimpa.size(); i++)
@@ -102,10 +103,10 @@ int main()
 				xor_atual ^= blimpa[i];
 		}
 		
-		for (int r = 0; r < d2 && impressos < k; r++)
+		for (int r = 0; r < d2 && impres < k; r++)
 		{
 			cout << xor_atual << ' ';
-			impressos++;	
+			impres++;	
 		}
 		
 	}

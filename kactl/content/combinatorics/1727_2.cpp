@@ -1,8 +1,9 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 1727_2.cpp
  * CSES Task ID: 1727
- * CSES Problem: Candy Lottery
+ * CSES Problem: Candy Lottery (v2)
  * Link: https://cses.fi/problemset/task/1727
  * Description:
  *   addEventListener("DOMContentLoaded", function (e) {

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 1110.cpp
  * CSES Task ID: 1110
  * CSES Problem: Minimal Rotation
  * Link: https://cses.fi/problemset/task/1110

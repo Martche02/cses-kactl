@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
+ * Category: data_structures
+ * Source: 3194.cpp
  * CSES Task ID: 3194
  * CSES Problem: Xor Pyramid Diagonal
  * Link: https://cses.fi/problemset/task/3194

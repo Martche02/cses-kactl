@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 1112.cpp
  * CSES Task ID: 1112
  * CSES Problem: Required Substring
  * Link: https://cses.fi/problemset/task/1112

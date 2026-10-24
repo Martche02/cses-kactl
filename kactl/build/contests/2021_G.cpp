@@ -1,19 +1,20 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Contests
- * Problem: G
+ * Category: contests
+ * Source: 2021\G.cpp
+ * Problem: Maratona 2021 - G
  * Description:
- *   Implementation for G
+ *   Implementation for Maratona 2021 - G
  */
 #include <bits/stdc++.h>
-#define fori(i, n) for(int i=0; i<n; i++)
+#define fori(i, n) for(int i=0; i<n; i++)(*@\label{fn35}@*)
 using namespace std;
 using ll = long long;
 constexpr ll MAX_VAL = 100;
 ll fib[MAX_VAL];
 
 vector<int> candidates;
-bool dfs(ll n, int id)
+bool dfs(ll n, int id)(*@\label{fn36}@*)
 {
 	if(n == 1) return true;
 	if(id <= 1) return false;

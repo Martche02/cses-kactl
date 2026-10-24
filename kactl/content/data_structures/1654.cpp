@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
+ * Category: data_structures
+ * Source: 1654.cpp
  * CSES Task ID: 1654
  * CSES Problem: SOS Bit Problem
  * Link: https://cses.fi/problemset/task/1654

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 3398.cpp
  * CSES Task ID: 3398
  * CSES Problem: Permutation Rounds
  * Link: https://cses.fi/problemset/task/3398

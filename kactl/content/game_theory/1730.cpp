@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Game_theory
+ * Category: game_theory
+ * Source: 1730.cpp
  * CSES Task ID: 1730
  * CSES Problem: Nim Game I
  * Link: https://cses.fi/problemset/task/1730

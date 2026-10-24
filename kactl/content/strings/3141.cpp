@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 3141.cpp
  * CSES Task ID: 3141
  * CSES Problem: And Subset Count
  * Link: https://cses.fi/problemset/task/3141

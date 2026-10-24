@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 1086.cpp
  * CSES Task ID: 1086
  * CSES Problem: Writing Numbers
  * Link: https://cses.fi/problemset/task/1086

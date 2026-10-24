@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 1081.cpp
  * CSES Task ID: 1081
  * CSES Problem: Common Divisors
  * Link: https://cses.fi/problemset/task/1081

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Game_theory
+ * Category: game_theory
+ * Source: 2208.cpp
  * CSES Task ID: 2208
  * CSES Problem: Another Game
  * Link: https://cses.fi/problemset/task/2208

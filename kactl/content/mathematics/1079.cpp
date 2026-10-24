@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 1079.cpp
  * CSES Task ID: 1079
  * CSES Problem: Binomial Coefficients
  * Link: https://cses.fi/problemset/task/1079

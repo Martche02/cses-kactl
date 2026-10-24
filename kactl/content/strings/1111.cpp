@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 1111.cpp
  * CSES Task ID: 1111
  * CSES Problem: Longest Palindrome
  * Link: https://cses.fi/problemset/task/1111

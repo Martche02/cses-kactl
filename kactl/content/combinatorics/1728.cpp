@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Combinatorics
+ * Category: combinatorics
+ * Source: 1728.cpp
  * CSES Task ID: 1728
  * CSES Problem: Inversion Probability
  * Link: https://cses.fi/problemset/task/1728

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 1731.cpp
  * CSES Task ID: 1731
  * CSES Problem: Word Combinations
  * Link: https://cses.fi/problemset/task/1731

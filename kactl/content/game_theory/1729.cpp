@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Game_theory
+ * Category: game_theory
+ * Source: 1729.cpp
  * CSES Task ID: 1729
  * CSES Problem: Stick Game
  * Link: https://cses.fi/problemset/task/1729

@@ -4,335 +4,484 @@
 \usepackage[margin=0.4in]{geometry}
 \usepackage{listings}
 \usepackage{xcolor}
-\usepackage{multicol}
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
-
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Maratona de Programação — KACTL Notebook}
-\lhead{CSES \& Maratona SBC}
-\cfoot{\thepage}
-
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
-
-\lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{blue},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\tiny,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=3pt,                  
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2,
-    extendedchars=true,
-    literate=
-        {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
-        {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
-        {à}{{\`a}}1 {ã}{{\~a}}1 {õ}{{\~o}}1 {Ã}{{\~A}}1 {Õ}{{\~O}}1
-        {ç}{{\c c}}1 {Ç}{{\c C}}1 {â}{{\^a}}1 {ê}{{\^e}}1 {ô}{{\^o}}1
-        {–}{{-}}1 {—}{{-}}1
-}
-
+\pagestyle{fancy}\fancyhf{}
+\rhead{Maratona de Programação --- KACTL Notebook}\lhead{CSES \& Maratona SBC}\cfoot{\thepage}
+\definecolor{codegreen}{rgb}{0,0.6,0}\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
+\lstdefinestyle{mystyle}{backgroundcolor=\color{backcolour},commentstyle=\color{codegreen},
+ keywordstyle=\color{blue},numberstyle=\tiny\color{codegray},stringstyle=\color{codepurple},
+ basicstyle=\ttfamily\tiny,breaklines=true,keepspaces=true,numbers=left,numbersep=3pt,
+ showstringspaces=false,tabsize=2,extendedchars=true,escapeinside={(*@}{@*)},
+ literate={á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1 {Á}{{\'A}}1 {É}{{\'E}}1
+  {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1 {à}{{\`a}}1 {ã}{{\~a}}1 {õ}{{\~o}}1 {Ã}{{\~A}}1 {Õ}{{\~O}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {â}{{\^a}}1 {ê}{{\^e}}1 {ô}{{\^o}}1 {–}{{-}}1 {—}{{-}}1 {≤}{{<=}}2 {≥}{{>=}}2}
 \lstset{style=mystyle}
-
 \titleformat{\section}{\large\bfseries\color{blue}}{}{0em}{}[\titlerule]
 \titleformat{\subsection}{\bfseries\color{darkgray}}{}{0em}{}
-
 \title{\Huge \textbf{KACTL Team Notebook} \\ \large CSES Problem Set \& Maratona SBC Solutions}
-\author{Team Maratona}
-\date{\today}
-
+\author{Team Maratona}\date{\today}
 \begin{document}
-
 \maketitle
 \tableofcontents
 \newpage
 \section{Mathematics \& Number Theory}
 \subsection{Binomial Coefficients}
 \textbf{CSES ID:} 1079 \\
-\lstinputlisting[language=C++]{content/mathematics/1079.cpp}
+\lstinputlisting[language=C++]{build/mathematics/1079.cpp}
 \vspace{0.2cm}
 \subsection{Common Divisors}
 \textbf{CSES ID:} 1081 \\
-\lstinputlisting[language=C++]{content/mathematics/1081.cpp}
+\lstinputlisting[language=C++]{build/mathematics/1081.cpp}
 \vspace{0.2cm}
 \subsection{Sum of Divisors}
 \textbf{CSES ID:} 1082 \\
-\lstinputlisting[language=C++]{content/mathematics/1082.cpp}
+\lstinputlisting[language=C++]{build/mathematics/1082.cpp}
 \vspace{0.2cm}
 \subsection{Writing Numbers}
 \textbf{CSES ID:} 1086 \\
-\lstinputlisting[language=C++]{content/mathematics/1086.cpp}
+\lstinputlisting[language=C++]{build/mathematics/1086.cpp}
 \vspace{0.2cm}
 \subsection{Exponentiation}
 \textbf{CSES ID:} 1095 \\
-\lstinputlisting[language=C++]{content/mathematics/1095.cpp}
+\lstinputlisting[language=C++]{build/mathematics/1095.cpp}
 \vspace{0.2cm}
 \subsection{Counting Bits}
 \textbf{CSES ID:} 1146 \\
-\lstinputlisting[language=C++]{content/mathematics/1146.cpp}
+\lstinputlisting[language=C++]{build/mathematics/1146.cpp}
 \vspace{0.2cm}
 \subsection{Exponentiation II}
 \textbf{CSES ID:} 1712 \\
-\lstinputlisting[language=C++]{content/mathematics/1712.cpp}
+\lstinputlisting[language=C++]{build/mathematics/1712.cpp}
 \vspace{0.2cm}
 \subsection{Counting Divisors}
 \textbf{CSES ID:} 1713 \\
-\lstinputlisting[language=C++]{content/mathematics/1713.cpp}
+\lstinputlisting[language=C++]{build/mathematics/1713.cpp}
 \vspace{0.2cm}
 \subsection{Josephus Queries}
 \textbf{CSES ID:} 2164 \\
-\lstinputlisting[language=C++]{content/mathematics/2164.cpp}
+\lstinputlisting[language=C++]{build/mathematics/2164.cpp}
 \vspace{0.2cm}
 \subsection{Divisor Analysis}
 \textbf{CSES ID:} 2182 \\
-\lstinputlisting[language=C++]{content/mathematics/2182.cpp}
+\lstinputlisting[language=C++]{build/mathematics/2182.cpp}
 \vspace{0.2cm}
 \subsection{Prime Multiples}
 \textbf{CSES ID:} 2185 \\
-\lstinputlisting[language=C++]{content/mathematics/2185.cpp}
+\lstinputlisting[language=C++]{build/mathematics/2185.cpp}
 \vspace{0.2cm}
 \subsection{Counting Necklaces}
 \textbf{CSES ID:} 2209 \\
-\lstinputlisting[language=C++]{content/mathematics/2209.cpp}
+\lstinputlisting[language=C++]{build/mathematics/2209.cpp}
 \vspace{0.2cm}
 \subsection{Counting Grids}
 \textbf{CSES ID:} 2210 \\
-\lstinputlisting[language=C++]{content/mathematics/2210.cpp}
+\lstinputlisting[language=C++]{build/mathematics/2210.cpp}
 \vspace{0.2cm}
 \subsection{Counting Coprime Pairs}
 \textbf{CSES ID:} 2417 \\
-\lstinputlisting[language=C++]{content/mathematics/2417.cpp}
+\lstinputlisting[language=C++]{build/mathematics/2417.cpp}
 \vspace{0.2cm}
 \subsection{Xor Pyramid Peak}
 \textbf{CSES ID:} 2419 \\
-\lstinputlisting[language=C++]{content/mathematics/2419.cpp}
+\lstinputlisting[language=C++]{build/mathematics/2419.cpp}
 \vspace{0.2cm}
 \subsection{System of Linear Equations}
 \textbf{CSES ID:} 3154 \\
-\lstinputlisting[language=C++]{content/mathematics/3154.cpp}
+\lstinputlisting[language=C++]{build/mathematics/3154.cpp}
 \vspace{0.2cm}
-\subsection{System of Linear Equations}
+\subsection{System of Linear Equations (v2)}
 \textbf{CSES ID:} 3154 \\
-\lstinputlisting[language=C++]{content/mathematics/3154_feito_pelo_gemini.cpp}
+\lstinputlisting[language=C++]{build/mathematics/3154_feito_pelo_gemini.cpp}
 \vspace{0.2cm}
 \subsection{Sum of Four Squares}
 \textbf{CSES ID:} 3355 \\
-\lstinputlisting[language=C++]{content/mathematics/3355.cpp}
+\lstinputlisting[language=C++]{build/mathematics/3355.cpp}
 \vspace{0.2cm}
 \subsection{Next Prime}
 \textbf{CSES ID:} 3396 \\
-\lstinputlisting[language=C++]{content/mathematics/3396.cpp}
+\lstinputlisting[language=C++]{build/mathematics/3396.cpp}
 \vspace{0.2cm}
 \subsection{Permutation Order}
 \textbf{CSES ID:} 3397 \\
-\lstinputlisting[language=C++]{content/mathematics/3397.cpp}
+\lstinputlisting[language=C++]{build/mathematics/3397.cpp}
 \vspace{0.2cm}
 \subsection{Permutation Rounds}
 \textbf{CSES ID:} 3398 \\
-\lstinputlisting[language=C++]{content/mathematics/3398.cpp}
+\lstinputlisting[language=C++]{build/mathematics/3398.cpp}
 \vspace{0.2cm}
 \subsection{Triangle Number Sums}
 \textbf{CSES ID:} 3406 \\
-\lstinputlisting[language=C++]{content/mathematics/3406.cpp}
+\lstinputlisting[language=C++]{build/mathematics/3406.cpp}
 \vspace{0.2cm}
 \section{Combinatorics \& Probability}
 \subsection{Creating Strings II}
 \textbf{CSES ID:} 1715 \\
-\lstinputlisting[language=C++]{content/combinatorics/1715.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/1715.cpp}
 \vspace{0.2cm}
 \subsection{Distributing Apples}
 \textbf{CSES ID:} 1716 \\
-\lstinputlisting[language=C++]{content/combinatorics/1716.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/1716.cpp}
 \vspace{0.2cm}
 \subsection{Christmas Party}
 \textbf{CSES ID:} 1717 \\
-\lstinputlisting[language=C++]{content/combinatorics/1717.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/1717.cpp}
 \vspace{0.2cm}
 \subsection{Dice Probability}
 \textbf{CSES ID:} 1725 \\
-\lstinputlisting[language=C++]{content/combinatorics/1725.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/1725.cpp}
 \vspace{0.2cm}
 \subsection{Moving Robots}
 \textbf{CSES ID:} 1726 \\
-\lstinputlisting[language=C++]{content/combinatorics/1726.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/1726.cpp}
 \vspace{0.2cm}
 \subsection{Candy Lottery}
 \textbf{CSES ID:} 1727 \\
-\lstinputlisting[language=C++]{content/combinatorics/1727.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/1727.cpp}
 \vspace{0.2cm}
-\subsection{Candy Lottery}
+\subsection{Candy Lottery (v2)}
 \textbf{CSES ID:} 1727 \\
-\lstinputlisting[language=C++]{content/combinatorics/1727_2.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/1727_2.cpp}
 \vspace{0.2cm}
 \subsection{Inversion Probability}
 \textbf{CSES ID:} 1728 \\
-\lstinputlisting[language=C++]{content/combinatorics/1728.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/1728.cpp}
 \vspace{0.2cm}
 \subsection{Bracket Sequences I}
 \textbf{CSES ID:} 2064 \\
-\lstinputlisting[language=C++]{content/combinatorics/2064.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/2064.cpp}
 \vspace{0.2cm}
 \subsection{Bracket Sequences II}
 \textbf{CSES ID:} 2187 \\
-\lstinputlisting[language=C++]{content/combinatorics/2187.cpp}
+\lstinputlisting[language=C++]{build/combinatorics/2187.cpp}
+\vspace{0.2cm}
+\section{Dynamic Programming}
+\subsection{Dice Combinations}
+\textbf{CSES ID:} 1633 \\
+\lstinputlisting[language=C++]{build/dynamic_programming/1633.cpp}
+\vspace{0.2cm}
+\subsection{Minimizing Coins}
+\textbf{CSES ID:} 1634 \\
+\lstinputlisting[language=C++]{build/dynamic_programming/1634.cpp}
+\vspace{0.2cm}
+\subsection{Coin Combinations I}
+\textbf{CSES ID:} 1635 \\
+\lstinputlisting[language=C++]{build/dynamic_programming/1635.cpp}
+\vspace{0.2cm}
+\subsection{Coin Combinations II}
+\textbf{CSES ID:} 1636 \\
+\lstinputlisting[language=C++]{build/dynamic_programming/1636.cpp}
+\vspace{0.2cm}
+\subsection{Removing Digits}
+\textbf{CSES ID:} 1637 \\
+\lstinputlisting[language=C++]{build/dynamic_programming/1637.cpp}
 \vspace{0.2cm}
 \section{String Algorithms}
 \subsection{Minimal Rotation}
 \textbf{CSES ID:} 1110 \\
-\lstinputlisting[language=C++]{content/strings/1110.cpp}
+\lstinputlisting[language=C++]{build/strings/1110.cpp}
 \vspace{0.2cm}
 \subsection{Longest Palindrome}
 \textbf{CSES ID:} 1111 \\
-\lstinputlisting[language=C++]{content/strings/1111.cpp}
+\lstinputlisting[language=C++]{build/strings/1111.cpp}
 \vspace{0.2cm}
-\subsection{Longest Palindrome}
+\subsection{Longest Palindrome (v2)}
 \textbf{CSES ID:} 1111 \\
-\lstinputlisting[language=C++]{content/strings/1111_2.cpp}
+\lstinputlisting[language=C++]{build/strings/1111_2.cpp}
 \vspace{0.2cm}
 \subsection{Required Substring}
 \textbf{CSES ID:} 1112 \\
-\lstinputlisting[language=C++]{content/strings/1112.cpp}
+\lstinputlisting[language=C++]{build/strings/1112.cpp}
 \vspace{0.2cm}
 \subsection{Word Combinations}
 \textbf{CSES ID:} 1731 \\
-\lstinputlisting[language=C++]{content/strings/1731.cpp}
+\lstinputlisting[language=C++]{build/strings/1731.cpp}
 \vspace{0.2cm}
 \subsection{Finding Borders}
 \textbf{CSES ID:} 1732 \\
-\lstinputlisting[language=C++]{content/strings/1732.cpp}
+\lstinputlisting[language=C++]{build/strings/1732.cpp}
 \vspace{0.2cm}
 \subsection{Finding Periods}
 \textbf{CSES ID:} 1733 \\
-\lstinputlisting[language=C++]{content/strings/1733.cpp}
+\lstinputlisting[language=C++]{build/strings/1733.cpp}
 \vspace{0.2cm}
 \subsection{String Matching}
 \textbf{CSES ID:} 1753 \\
-\lstinputlisting[language=C++]{content/strings/1753.cpp}
+\lstinputlisting[language=C++]{build/strings/1753.cpp}
 \vspace{0.2cm}
 \subsection{Palindrome Queries}
 \textbf{CSES ID:} 2420 \\
-\lstinputlisting[language=C++]{content/strings/2420.cpp}
+\lstinputlisting[language=C++]{build/strings/2420.cpp}
 \vspace{0.2cm}
 \subsection{All Palindromes}
 \textbf{CSES ID:} 3138 \\
-\lstinputlisting[language=C++]{content/strings/3138.cpp}
+\lstinputlisting[language=C++]{build/strings/3138.cpp}
 \vspace{0.2cm}
 \subsection{And Subset Count}
 \textbf{CSES ID:} 3141 \\
-\lstinputlisting[language=C++]{content/strings/3141.cpp}
+\lstinputlisting[language=C++]{build/strings/3141.cpp}
 \vspace{0.2cm}
-\section{Data Structures \& Bitwise Operations}
+\section{Data Structures \& Bitwise}
 \subsection{SOS Bit Problem}
 \textbf{CSES ID:} 1654 \\
-\lstinputlisting[language=C++]{content/data_structures/1654.cpp}
+\lstinputlisting[language=C++]{build/data_structures/1654.cpp}
 \vspace{0.2cm}
 \subsection{Maximum Xor Subarray}
 \textbf{CSES ID:} 1655 \\
-\lstinputlisting[language=C++]{content/data_structures/1655.cpp}
+\lstinputlisting[language=C++]{build/data_structures/1655.cpp}
 \vspace{0.2cm}
 \subsection{Maximum Xor Subset}
 \textbf{CSES ID:} 3191 \\
-\lstinputlisting[language=C++]{content/data_structures/3191.cpp}
+\lstinputlisting[language=C++]{build/data_structures/3191.cpp}
 \vspace{0.2cm}
 \subsection{K Subset Xors}
 \textbf{CSES ID:} 3192 \\
-\lstinputlisting[language=C++]{content/data_structures/3192.cpp}
+\lstinputlisting[language=C++]{build/data_structures/3192.cpp}
 \vspace{0.2cm}
 \subsection{Xor Pyramid Diagonal}
 \textbf{CSES ID:} 3194 \\
-\lstinputlisting[language=C++]{content/data_structures/3194.cpp}
+\lstinputlisting[language=C++]{build/data_structures/3194.cpp}
 \vspace{0.2cm}
 \subsection{Xor Pyramid Row}
 \textbf{CSES ID:} 3195 \\
-\lstinputlisting[language=C++]{content/data_structures/3195.cpp}
+\lstinputlisting[language=C++]{build/data_structures/3195.cpp}
 \vspace{0.2cm}
 \subsection{Number of Subset Xors}
 \textbf{CSES ID:} 3211 \\
-\lstinputlisting[language=C++]{content/data_structures/3211.cpp}
+\lstinputlisting[language=C++]{build/data_structures/3211.cpp}
 \vspace{0.2cm}
 \subsection{All Subarray Xors}
 \textbf{CSES ID:} 3233 \\
-\lstinputlisting[language=C++]{content/data_structures/3233.cpp}
+\lstinputlisting[language=C++]{build/data_structures/3233.cpp}
 \vspace{0.2cm}
-\subsection{TrafficLights.}
-\lstinputlisting[language=C++]{content/data_structures/TrafficLights..cpp}
-\vspace{0.2cm}
-\section{Graph Algorithms \& Matrix Exponentiation}
+\section{Graph \& Matrix Exponentiation}
 \subsection{Throwing Dice}
 \textbf{CSES ID:} 1096 \\
-\lstinputlisting[language=C++]{content/graph/1096.cpp}
+\lstinputlisting[language=C++]{build/graph/1096.cpp}
 \vspace{0.2cm}
 \subsection{Fibonacci Numbers}
 \textbf{CSES ID:} 1722 \\
-\lstinputlisting[language=C++]{content/graph/1722.cpp}
+\lstinputlisting[language=C++]{build/graph/1722.cpp}
 \vspace{0.2cm}
 \subsection{Graph Paths I}
 \textbf{CSES ID:} 1723 \\
-\lstinputlisting[language=C++]{content/graph/1723.cpp}
+\lstinputlisting[language=C++]{build/graph/1723.cpp}
 \vspace{0.2cm}
 \subsection{Graph Paths II}
 \textbf{CSES ID:} 1724 \\
-\lstinputlisting[language=C++]{content/graph/1724.cpp}
+\lstinputlisting[language=C++]{build/graph/1724.cpp}
 \vspace{0.2cm}
-\section{Game Theory \& Nim Games}
+\section{Game Theory}
 \subsection{Stair Game}
 \textbf{CSES ID:} 1099 \\
-\lstinputlisting[language=C++]{content/game_theory/1099.cpp}
+\lstinputlisting[language=C++]{build/game_theory/1099.cpp}
 \vspace{0.2cm}
 \subsection{Stick Game}
 \textbf{CSES ID:} 1729 \\
-\lstinputlisting[language=C++]{content/game_theory/1729.cpp}
+\lstinputlisting[language=C++]{build/game_theory/1729.cpp}
 \vspace{0.2cm}
 \subsection{Nim Game I}
 \textbf{CSES ID:} 1730 \\
-\lstinputlisting[language=C++]{content/game_theory/1730.cpp}
+\lstinputlisting[language=C++]{build/game_theory/1730.cpp}
 \vspace{0.2cm}
 \subsection{Coin Piles}
 \textbf{CSES ID:} 1754 \\
-\lstinputlisting[language=C++]{content/game_theory/1754.cpp}
+\lstinputlisting[language=C++]{build/game_theory/1754.cpp}
 \vspace{0.2cm}
 \subsection{Grundy's Game}
 \textbf{CSES ID:} 2207 \\
-\lstinputlisting[language=C++]{content/game_theory/2207.cpp}
+\lstinputlisting[language=C++]{build/game_theory/2207.cpp}
 \vspace{0.2cm}
 \subsection{Another Game}
 \textbf{CSES ID:} 2208 \\
-\lstinputlisting[language=C++]{content/game_theory/2208.cpp}
+\lstinputlisting[language=C++]{build/game_theory/2208.cpp}
 \vspace{0.2cm}
-\section{Maratona SBC \& Contest Solutions}
-\subsection{J}
-\lstinputlisting[language=C++]{content/contests/J.cpp}
+\section{Maratona SBC \& Contests}
+\subsection{Maratona 2010 - J}
+\lstinputlisting[language=C++]{build/contests/2010_J.cpp}
 \vspace{0.2cm}
-\subsection{G}
-\lstinputlisting[language=C++]{content/contests/G.cpp}
+\subsection{Maratona 2021 - G}
+\lstinputlisting[language=C++]{build/contests/2021_G.cpp}
 \vspace{0.2cm}
-\subsection{A}
-\lstinputlisting[language=C++]{content/contests/A.cpp}
+\subsection{Maratona 2023 - A}
+\lstinputlisting[language=C++]{build/contests/2023_A.cpp}
 \vspace{0.2cm}
-\subsection{F}
-\lstinputlisting[language=C++]{content/contests/F.cpp}
+\subsection{Maratona 2023 - F}
+\lstinputlisting[language=C++]{build/contests/2023_F.cpp}
 \vspace{0.2cm}
-\subsection{I}
-\lstinputlisting[language=C++]{content/contests/I.cpp}
+\subsection{Maratona 2023 - I}
+\lstinputlisting[language=C++]{build/contests/2023_I.cpp}
 \vspace{0.2cm}
-\subsection{K}
-\lstinputlisting[language=C++]{content/contests/K.cpp}
+\subsection{Maratona 2023 - K}
+\lstinputlisting[language=C++]{build/contests/2023_K.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2024 - K}
+\lstinputlisting[language=C++]{build/contests/2024_K.cpp}
+\vspace{0.2cm}
+\subsection{Maratona F2025 - K}
+\lstinputlisting[language=C++]{build/contests/F2025_K.cpp}
 \vspace{0.2cm}
 \subsection{HowManyTeams}
-\lstinputlisting[language=C++]{content/contests/HowManyTeams.cpp}
+\lstinputlisting[language=C++]{build/contests/HowManyTeams.cpp}
 \vspace{0.2cm}
+\subsection{TrafficLights}
+\lstinputlisting[language=C++]{build/contests/TrafficLights.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2020 - D}
+\lstinputlisting[language=C++]{build/contests/2020_D.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2020 - L}
+\lstinputlisting[language=C++]{build/contests/2020_L.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2020 - N}
+\lstinputlisting[language=C++]{build/contests/2020_N.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2021 - I}
+\lstinputlisting[language=C++]{build/contests/2021_I.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2021 - K}
+\lstinputlisting[language=C++]{build/contests/2021_K.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2022 - D}
+\lstinputlisting[language=C++]{build/contests/2022_D.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2023 - D}
+\lstinputlisting[language=C++]{build/contests/2023_D.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2023 - I}
+\lstinputlisting[language=C++]{build/contests/2023_I_b.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2024 - A}
+\lstinputlisting[language=C++]{build/contests/2024_A.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2024 - B}
+\lstinputlisting[language=C++]{build/contests/2024_B.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2025 - H}
+\lstinputlisting[language=C++]{build/contests/2025_H.cpp}
+\vspace{0.2cm}
+\subsection{Maratona 2025 - J}
+\lstinputlisting[language=C++]{build/contests/2025_J.cpp}
+\vspace{0.2cm}
+\clearpage
+\section{Índice de Funções}
+{\small
+\par\medskip\textbf{\large A}\par
+\noindent função \texttt{adj} {\scriptsize\color{codegray}(Removing Digits)}\dotfill\hyperref[fn13]{pág.~\pageref*{fn13}}\par
+\par\medskip\textbf{\large B}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Binomial Coefficients)}\dotfill\hyperref[fn1]{pág.~\pageref*{fn1}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Bracket Sequences I)}\dotfill\hyperref[fn42]{pág.~\pageref*{fn42}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Bracket Sequences II)}\dotfill\hyperref[fn47]{pág.~\pageref*{fn47}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Counting Grids)}\dotfill\hyperref[fn51]{pág.~\pageref*{fn51}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Counting Necklaces)}\dotfill\hyperref[fn50]{pág.~\pageref*{fn50}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Creating Strings II)}\dotfill\hyperref[fn19]{pág.~\pageref*{fn19}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Distributing Apples)}\dotfill\hyperref[fn20]{pág.~\pageref*{fn20}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Fibonacci Numbers)}\dotfill\hyperref[fn25]{pág.~\pageref*{fn25}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Maratona 2023 - K)}\dotfill\hyperref[fn38]{pág.~\pageref*{fn38}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Next Prime)}\dotfill\hyperref[fn73]{pág.~\pageref*{fn73}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(Permutation Rounds)}\dotfill\hyperref[fn77]{pág.~\pageref*{fn77}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(System of Linear Equations)}\dotfill\hyperref[fn66]{pág.~\pageref*{fn66}}\par
+\noindent função \texttt{binpow} {\scriptsize\color{codegray}(System of Linear Equations (v2))}\dotfill\hyperref[fn67]{pág.~\pageref*{fn67}}\par
+\noindent função \texttt{build} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn55]{pág.~\pageref*{fn55}}\par
+\noindent função \texttt{burnside} {\scriptsize\color{codegray}(Counting Grids)}\dotfill\hyperref[fn52]{pág.~\pageref*{fn52}}\par
+\par\medskip\textbf{\large C}\par
+\noindent função \texttt{calculateFat} {\scriptsize\color{codegray}(Bracket Sequences I)}\dotfill\hyperref[fn43]{pág.~\pageref*{fn43}}\par
+\noindent função \texttt{calculateFat} {\scriptsize\color{codegray}(Bracket Sequences II)}\dotfill\hyperref[fn48]{pág.~\pageref*{fn48}}\par
+\noindent função \texttt{calculateFat} {\scriptsize\color{codegray}(Distributing Apples)}\dotfill\hyperref[fn21]{pág.~\pageref*{fn21}}\par
+\noindent função \texttt{calculateFat} {\scriptsize\color{codegray}(Permutation Order)}\dotfill\hyperref[fn75]{pág.~\pageref*{fn75}}\par
+\noindent função \texttt{crivo} {\scriptsize\color{codegray}(Counting Coprime Pairs)}\dotfill\hyperref[fn53]{pág.~\pageref*{fn53}}\par
+\noindent função \texttt{crivo} {\scriptsize\color{codegray}(Counting Divisors)}\dotfill\hyperref[fn18]{pág.~\pageref*{fn18}}\par
+\noindent função \texttt{crivo} {\scriptsize\color{codegray}(Permutation Rounds)}\dotfill\hyperref[fn78]{pág.~\pageref*{fn78}}\par
+\par\medskip\textbf{\large D}\par
+\noindent função \texttt{dbg} {\scriptsize\color{codegray}(Maratona 2020 - L)}\dotfill\hyperref[fn88]{pág.~\pageref*{fn88}}\par
+\noindent função \texttt{dbg} {\scriptsize\color{codegray}(Maratona 2021 - I)}\dotfill\hyperref[fn89]{pág.~\pageref*{fn89}}\par
+\noindent função \texttt{dfs} {\scriptsize\color{codegray}(Maratona 2021 - G)}\dotfill\hyperref[fn36]{pág.~\pageref*{fn36}}\par
+\par\medskip\textbf{\large E}\par
+\noindent função \texttt{ehsegunda} {\scriptsize\color{codegray}(Maratona 2021 - I)}\dotfill\hyperref[fn90]{pág.~\pageref*{fn90}}\par
+\noindent função \texttt{exp} {\scriptsize\color{codegray}(Exponentiation)}\dotfill\hyperref[fn5]{pág.~\pageref*{fn5}}\par
+\noindent função \texttt{exp} {\scriptsize\color{codegray}(Exponentiation II)}\dotfill\hyperref[fn17]{pág.~\pageref*{fn17}}\par
+\par\medskip\textbf{\large F}\par
+\noindent função \texttt{factorize} {\scriptsize\color{codegray}(Counting Coprime Pairs)}\dotfill\hyperref[fn54]{pág.~\pageref*{fn54}}\par
+\noindent função \texttt{factorize} {\scriptsize\color{codegray}(Permutation Rounds)}\dotfill\hyperref[fn79]{pág.~\pageref*{fn79}}\par
+\noindent função \texttt{fim} {\scriptsize\color{codegray}(Word Combinations)}\dotfill\hyperref[fn28]{pág.~\pageref*{fn28}}\par
+\noindent função \texttt{findxor} {\scriptsize\color{codegray}(Maximum Xor Subarray)}\dotfill\hyperref[fn15]{pág.~\pageref*{fn15}}\par
+\noindent função \texttt{findxor} {\scriptsize\color{codegray}(TrafficLights)}\dotfill\hyperref[fn86]{pág.~\pageref*{fn86}}\par
+\noindent função \texttt{fori} {\scriptsize\color{codegray}(Maratona 2021 - G)}\dotfill\hyperref[fn35]{pág.~\pageref*{fn35}}\par
+\noindent função \texttt{fwht} {\scriptsize\color{codegray}(All Subarray Xors)}\dotfill\hyperref[fn72]{pág.~\pageref*{fn72}}\par
+\par\medskip\textbf{\large G}\par
+\noindent função \texttt{GET} {\scriptsize\color{codegray}(Coin Combinations I)}\dotfill\hyperref[fn10]{pág.~\pageref*{fn10}}\par
+\noindent função \texttt{GET} {\scriptsize\color{codegray}(Coin Combinations II)}\dotfill\hyperref[fn11]{pág.~\pageref*{fn11}}\par
+\noindent função \texttt{get} {\scriptsize\color{codegray}(Longest Palindrome)}\dotfill\hyperref[fn7]{pág.~\pageref*{fn7}}\par
+\noindent função \texttt{get} {\scriptsize\color{codegray}(Longest Palindrome (v2))}\dotfill\hyperref[fn8]{pág.~\pageref*{fn8}}\par
+\noindent função \texttt{GET} {\scriptsize\color{codegray}(Minimizing Coins)}\dotfill\hyperref[fn9]{pág.~\pageref*{fn9}}\par
+\noindent função \texttt{GET} {\scriptsize\color{codegray}(Removing Digits)}\dotfill\hyperref[fn12]{pág.~\pageref*{fn12}}\par
+\noindent função \texttt{getBasis} {\scriptsize\color{codegray}(Number of Subset Xors)}\dotfill\hyperref[fn71]{pág.~\pageref*{fn71}}\par
+\noindent função \texttt{getHash} {\scriptsize\color{codegray}(Finding Borders)}\dotfill\hyperref[fn31]{pág.~\pageref*{fn31}}\par
+\noindent função \texttt{getHash} {\scriptsize\color{codegray}(Finding Borders)}\dotfill\hyperref[fn32]{pág.~\pageref*{fn32}}\par
+\noindent função \texttt{getMax} {\scriptsize\color{codegray}(Maximum Xor Subset)}\dotfill\hyperref[fn69]{pág.~\pageref*{fn69}}\par
+\par\medskip\textbf{\large H}\par
+\noindent função \texttt{hash\_val} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn58]{pág.~\pageref*{fn58}}\par
+\noindent função \texttt{hash\_val} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn60]{pág.~\pageref*{fn60}}\par
+\par\medskip\textbf{\large I}\par
+\noindent função \texttt{identity} {\scriptsize\color{codegray}(Graph Paths I)}\dotfill\hyperref[fn26]{pág.~\pageref*{fn26}}\par
+\noindent função \texttt{identity} {\scriptsize\color{codegray}(Graph Paths II)}\dotfill\hyperref[fn27]{pág.~\pageref*{fn27}}\par
+\noindent função \texttt{identity} {\scriptsize\color{codegray}(Throwing Dice)}\dotfill\hyperref[fn6]{pág.~\pageref*{fn6}}\par
+\noindent função \texttt{inc} {\scriptsize\color{codegray}(Maratona 2020 - D)}\dotfill\hyperref[fn87]{pág.~\pageref*{fn87}}\par
+\noindent função \texttt{insert} {\scriptsize\color{codegray}(Maximum Xor Subarray)}\dotfill\hyperref[fn14]{pág.~\pageref*{fn14}}\par
+\noindent função \texttt{insert} {\scriptsize\color{codegray}(Maximum Xor Subset)}\dotfill\hyperref[fn68]{pág.~\pageref*{fn68}}\par
+\noindent função \texttt{insert} {\scriptsize\color{codegray}(Number of Subset Xors)}\dotfill\hyperref[fn70]{pág.~\pageref*{fn70}}\par
+\noindent função \texttt{insert} {\scriptsize\color{codegray}(TrafficLights)}\dotfill\hyperref[fn85]{pág.~\pageref*{fn85}}\par
+\noindent função \texttt{insert} {\scriptsize\color{codegray}(Word Combinations)}\dotfill\hyperref[fn29]{pág.~\pageref*{fn29}}\par
+\noindent função \texttt{integer\_sqrt} {\scriptsize\color{codegray}(Triangle Number Sums)}\dotfill\hyperref[fn80]{pág.~\pageref*{fn80}}\par
+\noindent função \texttt{is\_prime} {\scriptsize\color{codegray}(Next Prime)}\dotfill\hyperref[fn74]{pág.~\pageref*{fn74}}\par
+\noindent função \texttt{is\_square} {\scriptsize\color{codegray}(Triangle Number Sums)}\dotfill\hyperref[fn81]{pág.~\pageref*{fn81}}\par
+\noindent função \texttt{is\_triangular} {\scriptsize\color{codegray}(Triangle Number Sums)}\dotfill\hyperref[fn82]{pág.~\pageref*{fn82}}\par
+\noindent função \texttt{itera} {\scriptsize\color{codegray}(Maratona 2021 - I)}\dotfill\hyperref[fn92]{pág.~\pageref*{fn92}}\par
+\par\medskip\textbf{\large L}\par
+\noindent função \texttt{len} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn59]{pág.~\pageref*{fn59}}\par
+\noindent função \texttt{len} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn61]{pág.~\pageref*{fn61}}\par
+\par\medskip\textbf{\large M}\par
+\noindent função \texttt{match} {\scriptsize\color{codegray}(Maratona 2023 - D)}\dotfill\hyperref[fn95]{pág.~\pageref*{fn95}}\par
+\noindent função \texttt{mdc2} {\scriptsize\color{codegray}(Common Divisors)}\dotfill\hyperref[fn2]{pág.~\pageref*{fn2}}\par
+\noindent função \texttt{merge\_fwd} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn62]{pág.~\pageref*{fn62}}\par
+\noindent função \texttt{merge\_rev} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn63]{pág.~\pageref*{fn63}}\par
+\noindent função \texttt{mex} {\scriptsize\color{codegray}(Maratona 2010 - J)}\dotfill\hyperref[fn34]{pág.~\pageref*{fn34}}\par
+\noindent função \texttt{MOD} {\scriptsize\color{codegray}(Exponentiation)}\dotfill\hyperref[fn4]{pág.~\pageref*{fn4}}\par
+\noindent função \texttt{MOD} {\scriptsize\color{codegray}(Exponentiation II)}\dotfill\hyperref[fn16]{pág.~\pageref*{fn16}}\par
+\noindent função \texttt{mod} {\scriptsize\color{codegray}(Fibonacci Numbers)}\dotfill\hyperref[fn23]{pág.~\pageref*{fn23}}\par
+\noindent função \texttt{MOD} {\scriptsize\color{codegray}(Finding Borders)}\dotfill\hyperref[fn30]{pág.~\pageref*{fn30}}\par
+\par\medskip\textbf{\large N}\par
+\noindent função \texttt{newton} {\scriptsize\color{codegray}(Bracket Sequences I)}\dotfill\hyperref[fn44]{pág.~\pageref*{fn44}}\par
+\noindent função \texttt{newton} {\scriptsize\color{codegray}(Bracket Sequences II)}\dotfill\hyperref[fn49]{pág.~\pageref*{fn49}}\par
+\noindent função \texttt{newton} {\scriptsize\color{codegray}(Distributing Apples)}\dotfill\hyperref[fn22]{pág.~\pageref*{fn22}}\par
+\noindent função \texttt{ntt} {\scriptsize\color{codegray}(Maratona 2023 - K)}\dotfill\hyperref[fn40]{pág.~\pageref*{fn40}}\par
+\par\medskip\textbf{\large P}\par
+\noindent função \texttt{pow} {\scriptsize\color{codegray}(Divisor Analysis)}\dotfill\hyperref[fn46]{pág.~\pageref*{fn46}}\par
+\noindent função \texttt{pow} {\scriptsize\color{codegray}(Sum of Divisors)}\dotfill\hyperref[fn3]{pág.~\pageref*{fn3}}\par
+\noindent função \texttt{precalc\_pot2} {\scriptsize\color{codegray}(And Subset Count)}\dotfill\hyperref[fn65]{pág.~\pageref*{fn65}}\par
+\noindent função \texttt{print1} {\scriptsize\color{codegray}(Permutation Order)}\dotfill\hyperref[fn76]{pág.~\pageref*{fn76}}\par
+\noindent função \texttt{prod} {\scriptsize\color{codegray}(Fibonacci Numbers)}\dotfill\hyperref[fn24]{pág.~\pageref*{fn24}}\par
+\noindent função \texttt{proxdiautil} {\scriptsize\color{codegray}(Maratona 2021 - I)}\dotfill\hyperref[fn91]{pág.~\pageref*{fn91}}\par
+\par\medskip\textbf{\large Q}\par
+\noindent função \texttt{query} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn57]{pág.~\pageref*{fn57}}\par
+\par\medskip\textbf{\large R}\par
+\noindent função \texttt{RES} {\scriptsize\color{codegray}(And Subset Count)}\dotfill\hyperref[fn64]{pág.~\pageref*{fn64}}\par
+\noindent função \texttt{RES} {\scriptsize\color{codegray}(HowManyTeams)}\dotfill\hyperref[fn84]{pág.~\pageref*{fn84}}\par
+\par\medskip\textbf{\large S}\par
+\noindent função \texttt{simulate} {\scriptsize\color{codegray}(Maratona 2022 - D)}\dotfill\hyperref[fn94]{pág.~\pageref*{fn94}}\par
+\noindent função \texttt{solve} {\scriptsize\color{codegray}(Josephus Queries)}\dotfill\hyperref[fn45]{pág.~\pageref*{fn45}}\par
+\par\medskip\textbf{\large T}\par
+\noindent função \texttt{taylor\_swift} {\scriptsize\color{codegray}(Maratona 2023 - K)}\dotfill\hyperref[fn41]{pág.~\pageref*{fn41}}\par
+\noindent função \texttt{teste} {\scriptsize\color{codegray}(Triangle Number Sums)}\dotfill\hyperref[fn83]{pág.~\pageref*{fn83}}\par
+\noindent função \texttt{transform} {\scriptsize\color{codegray}(Maratona 2023 - K)}\dotfill\hyperref[fn39]{pág.~\pageref*{fn39}}\par
+\par\medskip\textbf{\large U}\par
+\noindent função \texttt{update} {\scriptsize\color{codegray}(Maratona 2023 - I)}\dotfill\hyperref[fn37]{pág.~\pageref*{fn37}}\par
+\noindent função \texttt{update} {\scriptsize\color{codegray}(Palindrome Queries)}\dotfill\hyperref[fn56]{pág.~\pageref*{fn56}}\par
+\par\medskip\textbf{\large W}\par
+\noindent função \texttt{waitfor} {\scriptsize\color{codegray}(Maratona 2021 - I)}\dotfill\hyperref[fn93]{pág.~\pageref*{fn93}}\par
+\par\medskip\textbf{\large Z}\par
+\noindent função \texttt{z\_function} {\scriptsize\color{codegray}(Finding Periods)}\dotfill\hyperref[fn33]{pág.~\pageref*{fn33}}\par
+}
 \end{document}

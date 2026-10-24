@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 2210.cpp
  * CSES Task ID: 2210
  * CSES Problem: Counting Grids
  * Link: https://cses.fi/problemset/task/2210

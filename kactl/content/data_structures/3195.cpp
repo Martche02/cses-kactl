@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Data_structures
+ * Category: data_structures
+ * Source: 3195.cpp
  * CSES Task ID: 3195
  * CSES Problem: Xor Pyramid Row
  * Link: https://cses.fi/problemset/task/3195

@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Strings
+ * Category: strings
+ * Source: 1732.cpp
  * CSES Task ID: 1732
  * CSES Problem: Finding Borders
  * Link: https://cses.fi/problemset/task/1732

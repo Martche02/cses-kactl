@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 3406.cpp
  * CSES Task ID: 3406
  * CSES Problem: Triangle Number Sums
  * Link: https://cses.fi/problemset/task/3406

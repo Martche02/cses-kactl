@@ -1,8 +1,9 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 3154_feito_pelo_gemini.cpp
  * CSES Task ID: 3154
- * CSES Problem: System of Linear Equations
+ * CSES Problem: System of Linear Equations (v2)
  * Link: https://cses.fi/problemset/task/3154
  * Description:
  *   addEventListener("DOMContentLoaded", function (e) {

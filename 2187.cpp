@@ -35,7 +35,7 @@ void calculateFat()
 		ifat[i-1] = (ifat[i]*i)%base;
 }
 
-// Consertada para calcular a Combinação C(a,b) de verdade e tratar casos negativos
+// Consertada para calcular a Combinação C(a,b) de verdade e tratar ca negativos
 ll newton(int a, int b)
 {
     if (b < 0 || b > a) return 0;

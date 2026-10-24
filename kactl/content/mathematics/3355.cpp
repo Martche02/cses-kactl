@@ -1,6 +1,7 @@
 /**
  * Author: Team KACTL / Marce
- * Category: Mathematics
+ * Category: mathematics
+ * Source: 3355.cpp
  * CSES Task ID: 3355
  * CSES Problem: Sum of Four Squares
  * Link: https://cses.fi/problemset/task/3355
